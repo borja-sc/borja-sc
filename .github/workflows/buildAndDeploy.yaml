@@ -17,7 +17,7 @@ jobs:
         submodules: true
 
     - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
+      uses: klakegg/actions-hugo@1.0.0 # benmatselby/hugo-deploy-gh-pages@master
       env:
         HUGO_VERSION: 0.69.1
         TARGET_REPO: borja-sc/borja-sc.github.io
